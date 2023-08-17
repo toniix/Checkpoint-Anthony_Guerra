@@ -1,0 +1,41 @@
+ git clone https://github.com/toniix/Checkpoint-Anthony_Guerra.git
+  513  ls
+  514  cd Checkpoint-Anthony_Guerra/
+  515  touch main.js
+  516  touch index.html
+  517  git status
+  518  git add .
+  519  git commit -m "Cree los archivos index y main"
+  520  git push
+  521  git branch feature
+  522  git checkout feature
+  523  mkdir Hardware Software
+  524  ls
+  525  mkdir SeguridadInformatica
+  526  cd Hardware/
+  527  touch resumen.txt
+  528  cd ..
+  529  cd SeguridadInformatica/
+  530  cd ..
+  531  cd SeguridadInformatica/
+  532  touch resumen.txt
+  533  cd ..
+  534  cd Software/
+  535  touch resumen.txt
+  536  cd ..
+  537  git add .
+  538  git commit -m "creacion de rama feature y archivos resumen"
+  539  git push
+  540  git push origin feature
+  541  cd ..
+  542  cd Checkpoint-Anthony_Guerra/
+  543  git cheackout main
+  544  git checkout main
+  545  git mv index.txt resumenSoftware.txt
+  546  ls
+  547  git mv index.html resumenSoftware.txt
+  548  git mv main.js resumenHardware.txt
+  549  touch comandos.txt
+  550  cd comandos.txt
+  551  code .
+  552  history
